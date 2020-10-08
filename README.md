@@ -1,6 +1,6 @@
 # chat.me
 
-![](https://github.com/q118/chat.me/blob/master/demo.gif)
+![](https://github.com/q118/chat.me/blob/main/demo.gif)
 
 A Real Time Chat App Built With Node.js And Socket.io
 
