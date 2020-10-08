@@ -6,9 +6,17 @@ const messageContainer = document.getElementById("message-container");
 const messageInput = document.getElementById("message-input");
 
 const name = prompt('What is your name')
+appendMessage('You Joined')
+socket.emit('new-user', name)
+
 
 socket.on("chat-message", (data) => {
 	appendMessage(data)
+});
+
+
+socket.on("user-connected", (name) => {
+	appendMessage(`${name} connected`)
 });
 
 messageForm.addEventListener("submit", (e) => {
