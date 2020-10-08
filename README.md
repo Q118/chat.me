@@ -1,4 +1,7 @@
 # chat.me
+
+![](https://github.com/q118/chat.me/blob/master/demo.gif)
+
 A Real Time Chat App Built With Node.js And Socket.io
 
 A time chat application complete with usernames and connect/disconnect messages. 
